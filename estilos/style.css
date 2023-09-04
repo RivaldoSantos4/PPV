@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'vava';
+    src: url('../fontes/Valorant\ Font.ttf') format('truetype');
+    
+  }
+  
+* {
+    padding: 0px;
+    margin: 0px; 
+    font-family: 'vava', Helvetica, sans-serif;
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none; 
+    padding: 10px;
+}
+
+.header {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    
+}    
+
+li {
+    margin-left: 10px;
+    
+}
+
+a:hover {
+    background-color: aliceblue;
+}
