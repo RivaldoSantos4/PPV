@@ -19,12 +19,12 @@ a {
 }
 
 .header {
-    background-color: red;
+    background-color: rgb(0, 255, 34);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    
+    flex-wrap: wrap;
 }
 
 .menu {
