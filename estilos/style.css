@@ -14,13 +14,16 @@
 }
 
 a {
+    display: block;
     text-decoration: none; 
     padding: 10px;
+    background-color: aqua;
 }
 
 .header {
     background-color: rgb(0, 255, 34);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -29,7 +32,6 @@ a {
 
 .menu {
     display: flex;
-    
 }    
 
 li {
