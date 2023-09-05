@@ -3,21 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/gaby.css">
-    <link rel="stylesheet" href="estilos/dispositivos.css">
+    <link rel="stylesheet" href="assets/estilos/gaby.css">
+    <link rel="stylesheet" href="assets/estilos/dispositivos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Gaby</title>
+
 </head>
 <body>
     <header class="header">
-        <h1>Valorant Clipes</h1>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="dark.html">Dark Clipes</a></li>
-        </ul>
-    </nav>  
+
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Valorant Clipes</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dark.html">Dark Clipes</a></li>
+                </ul>
+            </div>
     
-</header>
+            <div class="mobile-menu-icone">
+                <button onclick="clickMenu()" >
+                    <img class="icone" src="assets/img/menu_white_36dp.svg" alt="Clique Menu">
+                </button>
+            </div>
+        </nav>
+    
+      <div class="mobile-menu"> 
+        <ul>
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="dark.html">Dark Clipes</a></li>
+         </ul>
+        </div>
+    </header>
 <main>
 <div class="container">
     <div class="video">
@@ -27,17 +46,32 @@
 
 <div class="container">
     <div class="video">
-        
-      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MfzBoY2RfN0?si=W0RNbbNcUOPZePU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 
 <div class="container">
     <div class="video">
-        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VWm2_LRYUrM?si=5YnTrtBSdMyEbTZO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+
 </div>
-        
+
+
+<script>
+    function clickMenu(){
+
+        var menumobile = document.querySelector ('.mobile-menu')
+
+        if (menumobile.classList.contains('open')) {
+            menumobile.classList.remove('open');
+            document.querySelector('.icone').src = "assets/img/menu_white_36dp.svg";
+        } else {
+            menumobile.classList.add('open');
+            document.querySelector('.icone').src = "assets/img/close_white_36dp.svg";
+        }
+ }
+</script  
 </main>
 </body>
 </html>
