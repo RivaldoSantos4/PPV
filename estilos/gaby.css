@@ -14,6 +14,10 @@
     
 }
 
+body {
+ background-color: rgb(44, 44, 44);
+}
+
 a {
     display: block;
     text-decoration: none; 
@@ -56,9 +60,9 @@ a:hover {
 .container {
     max-width: 400px;
     margin: 20px;
-
 }
 .video {
+    
     position: relative;
     overflow: hidden;
     height: 0;
@@ -67,6 +71,7 @@ a:hover {
 }
 
 .video iframe {
+    
     position: absolute;
     width: 100%;
     height: 100%;
