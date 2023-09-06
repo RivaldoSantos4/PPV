@@ -47,7 +47,7 @@ button:hover {
 .nav-bar{
 display: flex;
 justify-content: space-between;
-padding: 1.5rem 6rem;
+padding: 1.5rem 3rem;
 }
 
 .logo {
