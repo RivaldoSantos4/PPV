@@ -69,6 +69,13 @@ header {
     text-decoration: none;
     font-size: 1.15rem;
     font-weight: 500;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    border-radius: 30px;
+    transition: 0.3s;
+    background-color: red;
 }
 
 .mobile-menu {
