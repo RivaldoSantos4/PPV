@@ -18,7 +18,7 @@ function trocarConteudo() {
 
     conteudo1.style.display = "block";
     conteudo2.style.display = "none";
-    window.location.reload(true);
+
 }
 
 function trocarConteudo2() {
