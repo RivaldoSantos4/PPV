@@ -13,10 +13,10 @@
 }
 
 .gradient{
-    background: linear-gradient(45deg, rgb(255, 11, 11), blue, #5b0097, #daae51);
-    height: 100vh;
+    background: linear-gradient(40deg, rgb(255, 11, 11), rgb(0, 102, 255), #5b0097, #fdae03);
+    height: 60vh;
     width: 100vw;
-    background-size: 400% 400%;
+    background-size: 300% 300%;
     animation: colors 10s ease infinite;
 }
 
@@ -47,6 +47,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    text-shadow: 1px 1px 2px rgb(255, 0, 0);
 }
 
 .nav-list  {

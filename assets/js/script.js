@@ -11,3 +11,21 @@ function clickMenu(){
          document.querySelector('.icone').src = "assets/img/close_white_36dp.svg";
      }
 } 
+
+function trocarConteudo() {
+    var conteudo1 = document.getElementById("conteudo1");
+    var conteudo2 = document.getElementById("conteudo2");
+
+    conteudo1.style.display = "block";
+    conteudo2.style.display = "none";
+    window.location.reload(true);
+}
+
+function trocarConteudo2() {
+    var conteudo1 = document.getElementById("conteudo1");
+    var conteudo2 = document.getElementById("conteudo2");
+
+    conteudo2.style.display = "block";
+    conteudo1.style.display = "none";
+    
+}

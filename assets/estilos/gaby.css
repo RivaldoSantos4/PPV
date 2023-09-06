@@ -16,6 +16,27 @@ background-color: #24252a;
 box-shadow: 0px 3px 10px #464646;
 }
 
+.subtitulo {
+    color: violet;
+    text-align: center;
+    padding-top: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+
+.submenu > button {
+    font-size: 1.2em;
+    background-color: transparent;
+    color: violet;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+#conteudo2 {
+    display: none;
+}
 .nav-bar{
 display: flex;
 justify-content: space-between;
@@ -26,6 +47,7 @@ padding: 1.5rem 6rem;
 .logo {
 display: flex;
 align-items: center;
+text-shadow: 1px 1px 2px rgb(111, 0, 255);
 }
 
 .nav-list  {
