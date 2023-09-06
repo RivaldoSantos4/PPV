@@ -89,3 +89,15 @@ header {
 .logo > a {
     text-decoration: none;
 }
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+.titulo {
+    font-size: 3em;
+}
