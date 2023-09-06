@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/estilos/dark.css">
     <link rel="stylesheet" href="assets/estilos/dispositivos.css">
+    <script src="assets/js/script.js"></script>
     <title>Dark</title>
 
 </head>
@@ -32,7 +33,7 @@
       <div class="mobile-menu"> 
         <ul>
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="dark.html">Dark Clipes</a></li>
+            <li class="nav-item"><a class="nav-link" href="gaby.html">Gaby Clipes</a></li>
          </ul>
         </div>
     </header>
@@ -55,22 +56,6 @@
     </div>
 
 </div>
-
-
-<script>
-    function clickMenu(){
-
-        var menumobile = document.querySelector ('.mobile-menu')
-
-        if (menumobile.classList.contains('open')) {
-            menumobile.classList.remove('open');
-            document.querySelector('.icone').src = "assets/img/menu_white_36dp.svg";
-        } else {
-            menumobile.classList.add('open');
-            document.querySelector('.icone').src = "assets/img/close_white_36dp.svg";
-        }
- }
-</script  
 </main>
 </body>
 </html>

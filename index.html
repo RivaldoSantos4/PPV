@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/estilos/style.css">
     <link rel="stylesheet" href="assets/estilos/dispositivos.css">
+    <script src="assets/js/script.js"></script>
     <title>PPV</title>
 </head>
 <body class="gradient">
@@ -35,19 +36,5 @@
      </ul>
     </div>
 </header>
-<script>
-    function clickMenu(){
-
-        var menumobile = document.querySelector ('.mobile-menu')
-
-        if (menumobile.classList.contains('open')) {
-            menumobile.classList.remove('open');
-            document.querySelector('.icone').src = "assets/img/menu_white_36dp.svg";
-        } else {
-            menumobile.classList.add('open');
-            document.querySelector('.icone').src = "assets/img/close_white_36dp.svg";
-        }
- }
-</script> 
 </body>
 </html>
