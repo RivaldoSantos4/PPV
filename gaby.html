@@ -12,49 +12,45 @@
 </head>
 <body>
     <header class="header">
-
-        <nav class="nav-bar">
-            <div class="logo">
-                <a class="logo" href="index.html"><h1>Valorant Clipes</h1></a>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <a class="logo" href="index.html"><h1>Valorant Clipes</h1></a>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gaby.html">gaby Clipes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dark.html">Dark Clipes</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-icone">
+                    <button onclick="clickMenu()" >
+                        <img class="icone" src="assets/img/menu_white_36dp.svg" alt="Clique Menu">
+                    </button>
+                </div>
+            </nav>
+                
+                  <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="gaby.html">gaby Clipes</a></li>
+                <li class="nav-item"><a class="nav-link" href="dark.html">Dark Clipes</a></li>
+             </ul>
             </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gaby.html">gaby Clipes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="dark.html">Dark Clipes</a></li>
-                </ul>
+            <div class="submenu">
+                
+                <button onclick="trocarConteudo()">Todos</buttom>
+                <button onclick="trocarConteudo2()">Aces</buttom>
             </div>
-    
-            <div class="mobile-menu-icone">
-                <button onclick="clickMenu()" >
-                    <img class="icone" src="assets/img/menu_white_36dp.svg" alt="Clique Menu">
-                </button>
-            </div>
-        </nav>
-    
-      <div class="mobile-menu"> 
-        <ul>
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="gaby.html">gaby Clipes</a></li>
-            <li class="nav-item"><a class="nav-link" href="dark.html">Dark Clipes</a></li>
-         </ul>
-        </div>
-
-        <div class="submenu">
-            <button onclick="trocarConteudo()">Todos</buttom>
-            <button onclick="trocarConteudo2()">Aces</buttom>
-        </div>
-
     </header>
     
-<main>
+<main class="conteudo">
 
     <div id="conteudo2">
         
         <div class="container">
             <h1 class="subtitulo">ACES</h1>
-            <div class="video">
-                
+            <div class="video"> 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VWm2_LRYUrM?si=5YnTrtBSdMyEbTZO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
@@ -68,7 +64,7 @@
     </div>
 
 <div id="conteudo1">  
-    <div class="container">
+    <div class="container" style="">
         <h1 class="subtitulo">Vídeos</h1>
         <div class="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/bTRFUAfQl30?si=7m4eeVPoU7m4JEOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -88,7 +84,6 @@
 </div>
 
 </div>
-</script>
 </main>
 </body>
 </html>

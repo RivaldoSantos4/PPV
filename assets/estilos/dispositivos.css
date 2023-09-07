@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 829px) {
     .container {
         max-width: 800px;
         margin: auto;
@@ -62,11 +62,25 @@
     .titulo {
         font-size: 2.5em;
     }
-    
+    .conteudo {
+        margin: -20px;
+    }
+
+    #conteudo1 {
+        padding-top: 130px;
+    }
+    .submenu {
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .titulo {
         font-size: 2em;
     }
+
+    
+ 
 }

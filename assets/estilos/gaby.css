@@ -11,6 +11,7 @@ font-family: 'vava', Helvetica, sans-serif;
 list-style-type: none;
 color: #fff;
 }
+
 header {
 background-color: #24252a;
 box-shadow: 0px 3px 10px #464646;
@@ -48,6 +49,7 @@ button:hover {
 display: flex;
 justify-content: space-between;
 padding: 1.5rem 2rem;
+padding-bottom: 10px;
 }
 
 .logo {
@@ -93,11 +95,11 @@ display: none;
 }
 
 .container {
+    display: block;
     max-width: 400px;
     margin: 20px;
 }
 .video {
-    
     position: relative;
     overflow: hidden;
     height: 0;
@@ -115,3 +117,18 @@ display: none;
     text-decoration: none;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+#conteudo1 {
+    padding-top: 107px;
+}
+
+.submenu {
+    display: flex;
+    justify-content: end;
+    margin-right: 37px;
+}

@@ -9,26 +9,26 @@ padding: 0px;
 margin: 0px; 
 font-family: 'vava', Helvetica, sans-serif;
 list-style-type: none;
-color: #ffffff;
+color: #fff;
 }
+
 header {
 background-color: #24252a;
 box-shadow: 0px 3px 10px #464646;
 }
 
 .subtitulo {
-    color: #0099ff;
+    color: rgb(1, 255, 35);
     text-align: center;
     padding-top: 10px;
     border: 2px solid black;
     margin-bottom: 10px;
 }
 
-
 .submenu > button {
     font-size: 1.2em;
     background-color: transparent;
-    color: #0099ff;
+    color: rgb(1, 255, 35);
     margin-left: 10px;
     padding: 5px;
     border: 1px solid white;
@@ -49,13 +49,13 @@ button:hover {
 display: flex;
 justify-content: space-between;
 padding: 1.5rem 2rem;
-
+padding-bottom: 10px;
 }
 
 .logo {
 display: flex;
 align-items: center;
-text-shadow: 1px 1px 2px rgb(0, 68, 255);
+text-shadow: 1px 1px 2px rgb(1, 255, 35);
 }
 
 .nav-list  {
@@ -74,17 +74,18 @@ margin-left: 15px;
 }
 
 .nav-link {
-    text-decoration: none;
-    font-size: 1.15rem;
-    font-weight: 500;
-    padding: 10px;
+text-decoration: none;
+font-size: 1.15rem;
+font-weight: 500;
+padding: 10px;
 }
-    
+
 .nav-link:hover {
-     border-radius: 30px;
-     transition: 0.3s;
-      background-color: red;
- }
+    border-radius: 30px;
+    transition: 0.3s;
+    background-color: red;
+}
+
 .mobile-menu {
 display: none;
 }
@@ -94,16 +95,16 @@ display: none;
 }
 
 .container {
+    display: block;
     max-width: 400px;
     margin: 20px;
 }
 .video {
-    
     position: relative;
     overflow: hidden;
     height: 0;
     padding-bottom: 56%;
-    border: 3px solid rgb(0, 117, 250);
+    border: 3px solid rgb(1, 255, 35);
 }
 
 .video iframe {  
@@ -116,3 +117,28 @@ display: none;
     text-decoration: none;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+#conteudo1 {
+    padding-top: 107px;
+}
+
+.submenu {
+    display: flex;
+    justify-content: end;
+    margin-right: 37px;
+}
+
+#conteudo2 {
+    padding-top: 107px;
+}
+
+.submenu {
+    display: flex;
+    justify-content: end;
+    margin-right: 37px;
+}
