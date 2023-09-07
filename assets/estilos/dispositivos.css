@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 829px) {
     .nav-bar {
-        padding: 1.5rem 4rem;
+        padding: 1.5rem 2rem;
     }
     .nav-item {
         display: none;
