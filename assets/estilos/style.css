@@ -102,9 +102,8 @@ header {
 }
 
 .titulo {
-    padding-right: 50px;
-   padding-left: 50px;
-    
+    text-align: center;
+    margin: auto;
     font-size: 3em;
     text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.671);
     
@@ -120,6 +119,38 @@ width: 100vw;
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.titulo {
+border-left: 2px solid white;
+ border-right:2px solid white;
+ white-space: nowrap;
+ overflow: hidden;
+}
+
+.typing-animation {
+    animation: blinkCursor  steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 10em;
+    }
+}
+
+@keyframes blinkCursor{
+    from {
+        border-right-color: white;
+
+    }
+
+    to { 
+        border-right-color: transparent
+    }
 }
 
 
