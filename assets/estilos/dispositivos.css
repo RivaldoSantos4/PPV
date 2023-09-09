@@ -84,3 +84,12 @@
     
  
 }
+
+@media screen and (max-width: 328px) {
+    .titulo {
+        font-size: 1.8em;
+    }
+
+    
+ 
+}
